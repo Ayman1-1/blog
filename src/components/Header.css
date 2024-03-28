@@ -1,0 +1,67 @@
+.header {
+  background-color: #1e6091;
+  padding: 20px 0;
+  padding-right: 65%;
+}
+.hero {
+  background-color: #168aad;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  margin: 0;
+  color: #fff; /* White color for logo text */
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff; /* White color for nav links */
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #61dafb; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 800px;
+  margin-top: -83px;
+}
+
+.login-button:hover {
+  background-color: #0073e6; /* Button background color on hover */
+}
+
+/* Move the navigation links to the right */
+.nav-links {
+  margin-left: 223%;
+}

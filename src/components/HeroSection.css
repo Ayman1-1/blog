@@ -1,0 +1,34 @@
+.hero {
+  background-color: #0073e6; /* Blue background color */
+  color: #fff; /* White color for text */
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.get-started-button {
+  background-color: #fff; /* Button background color */
+  color: #0073e6; /* Button text color */
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 80px;
+}
+
+.get-started-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
